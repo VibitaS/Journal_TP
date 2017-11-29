@@ -65,3 +65,12 @@
     margin-left: 0;
   }
 }
+
+@media print {
+  #menu{
+    display:none;
+  }
+  body {
+    font-size:120%;
+  }
+}

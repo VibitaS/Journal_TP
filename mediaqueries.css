@@ -23,7 +23,7 @@
     display: block;
   }
   #menu ul{
-    width: 320px;
+  display: none;
   }
   #main{
     display: block;
@@ -42,10 +42,23 @@
     float: none;
     width: 320px;
     margin: 0;
-    padding: 0;
   }
   #sideElement{
     width: 320px;
     float: none;
+  }
+  form{
+    margin-left: 0;
+    width: auto;
+  }
+  #formT{
+    margin-top: 100px;
+  }
+  label{
+    width: 200px;
+    text-align: center;
+  }
+  ul.socialicons{
+    margin-left: 0;
   }
 }

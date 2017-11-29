@@ -1,10 +1,35 @@
 
 @charset "UTF-8";
+/** CSS Reset **/
+/**http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+**/
+
+html, body, div,
+h1, h2, h3, h4, p,pre,
+a, em, img,strong,
+b, u, i, center,ul, li,
+fieldset, form, label, legend,
+article, header,menu {
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,header,menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
 body{
 	width: 100%;
 	margin:auto;
 	background-color: white;
 }
+/**-----------------------------**/
 /*MENU/NAVIGATION*/
 #menu {
 	width: 100%;

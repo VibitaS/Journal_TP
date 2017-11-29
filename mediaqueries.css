@@ -72,15 +72,19 @@
 }
 
 @media print {
-  #menu{
+  #menu, #menu ul, #menu li{
     display:none;
   }
   body {
     background-color: none;
     color: black;
     margin:1cm;
+    display: block;
   }
   form{
     display: none;
+  }
+  a{
+    font-style: italic;
   }
 }

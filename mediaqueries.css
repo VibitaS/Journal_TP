@@ -29,21 +29,27 @@
     display: block;
     position: relative;
     margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    justify-content: space-around;
   }
   h1{
     width: 100%;
+    text-align: center;
   }
   #CTA{
     width: 100%;
     font-size: 13px;
     margin: 5px;
+    text-align: center;
   }
   #img img{
     width: 320px;
+    height: auto;
   }
   #content{
     float: none;
-    width: 320px;
+    width: 250px;
     margin: 0;
   }
   #sideElement{

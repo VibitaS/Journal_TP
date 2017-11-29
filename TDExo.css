@@ -79,6 +79,12 @@ body{
 
 }
 
+/*#first{
+	column-count: 3;
+	column-gap: 20px;
+	column-rule: 1px solid #000000;
+}*/
+
 #content img{
 	width: 100px;
 	float: left;

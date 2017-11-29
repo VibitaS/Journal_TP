@@ -1,0 +1,7 @@
+@charset "UTF-8";
+@media screen and (max-width: 480px), screen and (max-device-width: 480px) {
+  body{
+    width: 320px;
+    height: auto;
+  }
+}

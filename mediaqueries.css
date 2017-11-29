@@ -77,6 +77,10 @@
     display:none;
   }
   body {
-    font-size:120%;
+    background-color: none;
+    color: black;
+  }
+  form{
+    display: none;
   }
 }

@@ -34,8 +34,7 @@
     justify-content: space-around;
   }
   h1{
-    width: 100%;
-    text-align: center;
+    width: auto;
   }
   #CTA{
     width: 100%;
@@ -79,6 +78,7 @@
   body {
     background-color: none;
     color: black;
+    margin:1cm;
   }
   form{
     display: none;

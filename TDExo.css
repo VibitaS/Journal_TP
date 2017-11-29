@@ -63,10 +63,7 @@ body{
 	color: #ffc7f8;
 }
 #main{
-	margin-top: 60px;
-}
-#main{
-	margin: 50px;
+	margin: 60px;
 }
 /* CTA */
 #CTA{
@@ -162,6 +159,7 @@ h1{
 	color: #9370D8;
 	width: 70%;
 	float: left;
+	margin-left: 1em;
 }
 h2{
 	font: Verdana;

@@ -4,10 +4,13 @@
     width: 320px;
     height: auto;
     display: block;
-    margin-right: 0;
+    margin:0;
+    padding: 0;
   }
   #menu{
     width: 320px;
+    position: absolute;
+    padding: 0;
   }
   #menu li{
     width: 100%;
@@ -22,18 +25,18 @@
     margin:0 10px;
     display: block;
   }
-  #menu ul{
-  display: none;
-  }
   #main{
     display: block;
     position: relative;
+    margin-left: 0;
   }
   h1{
     width: 100%;
   }
   #CTA{
     width: 100%;
+    font-size: 13px;
+    margin: 5px;
   }
   #img img{
     width: 320px;
@@ -48,7 +51,7 @@
     float: none;
   }
   form{
-    margin-left: 0;
+    margin:10px;
     width: auto;
   }
   #formT{

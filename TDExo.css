@@ -1,0 +1,236 @@
+
+/**************************
+	TO DO CSS :
+	- reorganize code
+	- put inline style in this sheet
+**************************/
+
+@charset "UTF-8";
+body{
+	width: 100%;
+	margin:auto;
+	background-color: white;
+}
+/*MENU/NAVIGATION*/
+#menu {
+	width: 100%;
+	background-color: #E6E6FA;
+	text-align: justify;
+	position: fixed;
+	z-index: 1;
+}
+#menu li {
+	margin:20px;
+	display: inline;
+	list-style: none;
+	float: left;
+	border-right: 5px solid black;
+}
+#menu a {
+	display:inline-block;
+	margin: 0 30px;
+	padding-right: 1em;
+	text-decoration:none;
+	font: 1em Verdana, sans-serif;
+	text-transform:uppercase;
+}
+#menu li:last-child{
+	border-right: 0;
+}
+#menu a:hover{
+	color: #ffc7f8;
+}
+#main{
+	margin-top: 60px;
+}
+#main{
+	margin: 50px;
+}
+/* CTA */
+#CTA{
+	color: #ffc7f8;
+	text-decoration: none;
+	width: 15%;
+	float: right;
+	font-family: Verdana,sans-serif;
+	font-size: 15px;
+	font-style: normal;
+}
+#CTA:hover{
+	color: #E6E6FA;
+}
+/*IMAGE*/
+#img img {
+	width: 100%;
+	height: 200px;
+	margin-top: 1em;
+}
+
+/*CONTENU*/
+#content{
+	float:left;
+	width: 60%;
+	border: 1em;
+	border-color: black;
+	background-color: #E6E6FA;
+	padding: 2em;
+	margin-top: 1.8em;
+	font: 13px Verdana;
+
+}
+
+#content img{
+	width: 100px;
+	float: left;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+}
+
+#dots{
+	padding: 2.5em;
+	page-break-inside: 1em;
+	border: dotted;
+	border-width:3px;
+	border-color:black;
+	font: 8px Verdana;
+	text-decoration: none;
+}
+#dots a{
+	text-decoration: none;
+	color: #000000;
+}
+#dots a:hover{
+	color: #ffffff;
+	font-style: italic;
+}
+#sideElement{
+	width: 30%;
+	float: right;
+
+}
+.extrait {
+	padding: 1em;
+	background-color: white;
+	margin: 3em;
+	margin: 0 45 0 45;
+	float: left;
+	font: 10px Verdana;
+	border-top: 1em #9370D8;
+	border-style: solid;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1.8em;
+	text-align: justify;
+}
+
+.extrait img{
+	width: 10%;
+	height: 20px;
+	float: right;
+}
+/*TITRES*/
+h1{
+	font: Verdana;
+	color: #9370D8;
+	width: 70%;
+	float: left;
+}
+h2{
+	font: Verdana;
+	color: white;
+}
+h3{
+	letter-spacing: 1em;
+	font: Verdana;
+	color: #000000;
+}
+/*FORMUMLAIE*/
+form{
+	width: 500px;
+	float: left;
+	display: block;
+	margin-left: 400px;
+	border: 1px solid;
+	padding: 10px;
+	background-color: #E6E6FA;
+}
+form div{
+	margin-bottom: 2em;
+}
+label{
+	display: inline-block;
+	width: 70px;
+	text-align: left;
+	font: lighter 15px Arial;
+}
+input{
+
+	font: bold 20px Arial;
+}
+textarea{
+	vertical-align: top;
+	height: 10em;
+	width: 270px;
+}
+
+#formT{
+	margin-top: 50px;
+ 	text-align: center;
+	float: none;
+}
+
+/*SPRITES SOCIAL NETWORKS*/
+ul.socialicons {
+	list-style: none;
+	overflow: auto;
+	margin-left: 100px;
+}
+ul.socialicons li {
+	width: 32px;
+	height: 33px;
+	padding: 0 5px 0 0;
+	float: left;
+}
+ul.socialicons li a {
+	width: 32px;
+	height: 33px;
+	display: block;
+	background: url(socialSprite.png) no-repeat;
+}
+ul.socialicons li a.facebook{
+	background-position: 0 -73px;
+}
+ul.socialicons li a.facebook:hover{
+	background-position: -38px -73px;
+}
+ul.socialicons li a.twitter{
+	background-position: 0 -109px;
+}
+ul.socialicons li a.twitter:hover{
+	background-position: -38px -109px;
+}
+ul.socialicons li a.youtube{
+	background-position: 0 -219px;
+}
+ul.socialicons li a.youtube:hover{
+	background-position: -38px -219px;
+}
+ul.socialicons li a.skype{
+	background-position: 0 -256px;
+}
+ul.socialicons li a.skype:hover{
+	background-position: -38px -256px;
+}
+ul.socialicons li a.linkedin{
+	background-position: 0 -292px;
+}
+ul.socialicons li a.linkedin:hover{
+	background-position: -38px -292px;
+}
+ul.socialicons li a.instagram{
+	background-position: 0 -731px;
+}
+ul.socialicons li a.instagram:hover{
+	background-position: -38px -731px;
+}

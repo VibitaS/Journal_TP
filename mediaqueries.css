@@ -3,5 +3,49 @@
   body{
     width: 320px;
     height: auto;
+    display: block;
+    margin-right: 0;
+  }
+  #menu{
+    width: 320px;
+  }
+  #menu li{
+    width: 100%;
+    font-size: 10px;
+    display: block;
+    border: 0;
+    margin: 5px;
+  }
+  #menu a{
+    font-size: 10px;
+    float: none;
+    margin:0 10px;
+    display: block;
+  }
+  #menu ul{
+    width: 320px;
+  }
+  #main{
+    display: block;
+    position: relative;
+  }
+  h1{
+    width: 100%;
+  }
+  #CTA{
+    width: 100%;
+  }
+  #img img{
+    width: 320px;
+  }
+  #content{
+    float: none;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+  }
+  #sideElement{
+    width: 320px;
+    float: none;
   }
 }

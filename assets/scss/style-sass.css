@@ -17,12 +17,41 @@ body #bg img {
   position: relative;
   display: block; }
 body #page {
-  margin: 1em; }
+  align-items: center;
+  display: block;
+  margin: 1em;
+  padding-left: 30%;
+  padding-right: 30%; }
   body #page #titleArticle {
-    font-size: 30px;
+    font-size: 40px;
     color: #f9d7ff;
-    float: none; }
+    float: none;
+    text-align: center;
+    font-family: Arial,cursive; }
+  body #page #content-box {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 500px;
+    height: auto; }
+    body #page #content-box p {
+      text-align: justify; }
+    body #page #content-box p:first-letter {
+      font-size: 30px; }
+    body #page #content-box #quote {
+      font-size: 20px;
+      font-style: italic;
+      margin: 0.5em; }
   body #page #author {
-    float: none; }
+    width: 100px;
+    height: 100px;
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #ffddfe;
+    margin-top: 1em;
+    margin-left: 40%;
+    margin-right: 40%; }
 
 /*# sourceMappingURL=style-sass.css.map */

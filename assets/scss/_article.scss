@@ -16,14 +16,47 @@ body{
     display: block;
   }
   #page{
+    align-items: center;
+    display: block;
     margin : 1em;
+    padding-left: 30%;
+    padding-right: 30%;
     #titleArticle{
-        font-size: 30px;
+        font-size: 40px;
         color: #f9d7ff;
         float: none;
+        text-align: center;
+        font-family: Arial,cursive;
+    }
+    #content-box{
+      margin-top: 1em;
+      margin-bottom: 1em;
+      width: 500px;
+      height: auto;
+      p{
+        text-align: justify;
+      }
+      p:first-letter{
+        font-size: 30px;
+      }
+      #quote{
+        font-size: 20px;
+        font-style: italic;
+        margin: 0.5em;
+      }
     }
     #author{
-      float: none;
+      width: 100px;
+      height: 100px;
+      padding: 1em;
+      text-align: center;
+      vertical-align: middle;
+      border: 1px solid grey;
+      border-radius: 10px;
+      background-color: #ffddfe;
+      margin-top: 1em;
+      margin-left: 40%;
+      margin-right: 40%;
     }
   }
 }

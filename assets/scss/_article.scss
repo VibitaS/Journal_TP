@@ -1,5 +1,4 @@
-html, body, div,
-h1, h2, h3, h4, p,pre,
+html, body, div h2, h3, h4, p,pre,
 a, em, img,strong,
 b, u, i, center,ul, li,
 fieldset, form, label, legend,
@@ -14,5 +13,17 @@ body{
   	height: 200px;
     margin-top: 45px;
     position: relative;
+    display: block;
+  }
+  #page{
+    margin : 1em;
+    #titleArticle{
+        font-size: 30px;
+        color: #f9d7ff;
+        float: none;
+    }
+    #author{
+      float: none;
+    }
   }
 }

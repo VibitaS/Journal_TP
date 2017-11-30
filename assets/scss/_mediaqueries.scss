@@ -1,0 +1,6 @@
+@mixin mmobile {
+  @media (max-width: 420px) {
+    width: 320px;
+    display: block;
+  }
+}

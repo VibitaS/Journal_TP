@@ -1,8 +1,7 @@
 /* * * *
-* ELEMENTS
+* IMPORT
 * * * */
-html, body, div,
-h1, h2, h3, h4, p, pre,
+html, body, div h2, h3, h4, p, pre,
 a, em, img, strong,
 b, u, i, center, ul, li,
 fieldset, form, label, legend,
@@ -15,6 +14,15 @@ body #bg img {
   width: 100%;
   height: 200px;
   margin-top: 45px;
-  position: relative; }
+  position: relative;
+  display: block; }
+body #page {
+  margin: 1em; }
+  body #page #titleArticle {
+    font-size: 30px;
+    color: #f9d7ff;
+    float: none; }
+  body #page #author {
+    float: none; }
 
 /*# sourceMappingURL=style-sass.css.map */

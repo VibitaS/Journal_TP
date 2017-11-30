@@ -1,0 +1,18 @@
+html, body, div,
+h1, h2, h3, h4, p,pre,
+a, em, img,strong,
+b, u, i, center,ul, li,
+fieldset, form, label, legend,
+article, header,menu {
+  margin: 0;
+  padding: 0;
+	vertical-align: baseline;
+}
+body{
+  #bg img{
+    width: 100%;
+  	height: 200px;
+    margin-top: 45px;
+    position: relative;
+  }
+}
